@@ -1,4 +1,16 @@
 #days{
-color: red;
+color:pink;
+}
+
+#hours{
+  color:pink;
+}
+
+#minutes{
+color: pink;
+}
+
+#seconds{
+  color: pink;
 
 }
