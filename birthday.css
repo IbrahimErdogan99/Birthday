@@ -15,3 +15,22 @@ color: white;
 
 }
 
+#days{
+color: white;
+}
+#hours{
+  color: white;
+}
+#minutes{
+  color: white;
+}
+
+#seconds{
+  color: white;
+}
+
+.hintergrund {
+
+  		background-image:url(HinterGrundBildB-day.jpg);
+      background-size: 100%;
+    }
