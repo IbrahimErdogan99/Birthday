@@ -18,6 +18,43 @@ color: white;
 
 body { font-family:'Emilys Candy',sans-serif;font-weight:300 }
 
+/* IDEA: iframe {
+width: 100%;
+transform: translateX(-40%) translateY(-30%);
+}
+ */
+.videowrapper{
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px
+  height: 0px;
+}
+
+.videowrapper iframe{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 30%;
+  width: 30%;
+}
+
+.videowrapper2 iframe{
+  position: absolute;
+    left: 900px;
+    top: 200px;
+    right: 0px;
+    bottom: 0px;
+    width: 30%;
+    height: 50%;
+}
+
+
+
+audio{
+  transform: translateY(700%);
+}
 /* IDEA:   (https://images.wallpaperscraft.com/image/surrealism_boat_clouds_130292_1920x1080.jpg);*/
 
    /* IDEA: background-image: url(https://images.wallpaperscraft.com/image/surrealism_boat_clouds_130292_1920x1080.jpg);
