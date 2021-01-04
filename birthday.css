@@ -23,33 +23,19 @@ width: 100%;
 transform: translateX(-40%) translateY(-30%);
 }
  */
-.videowrapper{
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 25px
-  height: 0px;
-}
+.mr {
+   
+   transform: translateX(400px) translateY(700px);
+ }
 
-.videowrapper iframe{
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  height: 30%;
-  width: 30%;
-}
+ .mr2 {
+   transform: translateX(0px) translateY(-300px);
+ }
 
-.videowrapper2 iframe{
-  position: absolute;
-    left: 900px;
-    top: 200px;
-    right: 0px;
-    bottom: 0px;
-    width: 30%;
-    height: 50%;
-}
+.mr3{
+  transform: translateX(0px) translateY(0px);
 
+}
 
 /* IDEA:
 audio{
