@@ -39,10 +39,10 @@ transform: translateX(-40%) translateY(-30%);
 }
 
 .mr4{
-  transform: translate(170px, 750px); /* IDEA: orange cat */
+  transform: translate(140px, 750px); /* IDEA: orange cat */
 }
 .mr5{
-  transform: translate(100px, 0px); /* IDEA: white cat looking*/
+  transform: translate(300px, -600px); /* IDEA: white cat looking*/
 }
 audio{
   transform: translateY(900%);
