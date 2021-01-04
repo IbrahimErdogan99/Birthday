@@ -36,6 +36,10 @@ transform: translateX(-40%) translateY(-30%);
 .mr3{
   transform: translate(150px, 450px); /* IDEA: two cat
  */
+}
+
+.mr4{
+  transform: translate(250px, 550px);
 
 }
 
