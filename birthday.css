@@ -24,15 +24,18 @@ transform: translateX(-40%) translateY(-30%);
 }
  */
 .mr {
-   transform: translateX(400px) translateY(700px);
+   transform: translateX(400px) translateY(700px); /* IDEA: welches bild ist das 
+ */
  }
 
  .mr2 {
-   transform: translateX(0px) translateY(300px);
+   transform: translateX(0px) translateY(700px); /* IDEA: welches bild ist das 
+ */
  }
 
 .mr3{
-  transform: translateX(250px) translateY(300px);
+  transform: translateX(250px) translateY(300px); /* IDEA: welches bild ist das 
+ */
 
 }
 
