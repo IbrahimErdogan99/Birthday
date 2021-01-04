@@ -24,7 +24,7 @@ transform: translateX(-40%) translateY(-30%);
 }
  */
 .mr {
-   transform: translate(0px, 0px); /* IDEA: IPad
+   transform: translate(-250px, 0px); /* IDEA: IPad
  */
  }
 
@@ -39,10 +39,11 @@ transform: translateX(-40%) translateY(-30%);
 }
 
 .mr4{
-  transform: translate(170px, 750px);
-
+  transform: translate(170px, 750px); /* IDEA: orange cat */
 }
-
+.mr5{
+  transform: translate(100px, 0px); /* IDEA: white cat looking*/
+}
 audio{
   transform: translateY(900%);
 } 
