@@ -24,25 +24,24 @@ transform: translateX(-40%) translateY(-30%);
 }
  */
 .mr {
-   transform: translateX(0px) translateY(0px); /* IDEA: IPad
+   transform: translate(0px, 0px); /* IDEA: IPad
  */
  }
 
  .mr2 {
-   transform: translateX(0px) translateY(700px); /* IDEA: white cat
+   transform: translate(0px, 700px); /* IDEA: white cat
  */
  }
 
 .mr3{
-  transform: translateX(150px) translateY(450px); /* IDEA: two cat
+  transform: translate(150px, 450px); /* IDEA: two cat
  */
 
 }
 
-/* IDEA:
 audio{
-  transform: translateY(700%);
-} */
+  transform: translateY(500%);
+} 
 /* IDEA:   (https://images.wallpaperscraft.com/image/surrealism_boat_clouds_130292_1920x1080.jpg);*/
 
    /* IDEA: background-image: url(https://images.wallpaperscraft.com/image/surrealism_boat_clouds_130292_1920x1080.jpg);
