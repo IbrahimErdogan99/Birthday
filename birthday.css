@@ -24,12 +24,12 @@ transform: translateX(-40%) translateY(-30%);
 }
  */
 .mr {
-   transform: translateX(250px) translateY(1000px); /* IDEA: welches bild ist das 
+   transform: translateX(0px) translateY(0px); /* IDEA: welches bild ist das 
  */
  }
 
  .mr2 {
-   transform: translateX(0px) translateY(900px); /* IDEA: welches bild ist das 
+   transform: translateX(0px) translateY(800px); /* IDEA: welches bild ist das 
  */
  }
 
