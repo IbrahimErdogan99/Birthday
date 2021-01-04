@@ -24,16 +24,15 @@ transform: translateX(-40%) translateY(-30%);
 }
  */
 .mr {
-   
    transform: translateX(400px) translateY(700px);
  }
 
  .mr2 {
-   transform: translateX(0px) translateY(-300px);
+   transform: translateX(0px) translateY(300px);
  }
 
 .mr3{
-  transform: translateX(0px) translateY(0px);
+  transform: translateX(250px) translateY(300px);
 
 }
 
