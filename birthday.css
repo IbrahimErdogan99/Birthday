@@ -42,7 +42,7 @@ transform: translateX(-40%) translateY(-30%);
   transform: translate(140px, 750px); /* IDEA: orange cat */
 }
 .mr5{
-  transform: translate(300px, -600px); /* IDEA: white cat looking*/
+  transform: translate(400px, -600px); /* IDEA: white cat looking*/
 }
 audio{
   transform: translateY(900%);
