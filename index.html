@@ -59,7 +59,7 @@
 
 			function countdown(){
 				var now = new Date();
-				var eventDate = new Date(now.getFullYear(), 1, -12);
+				var eventDate = new Date(now.getFullYear(), 1, -13, -8);
 
 				var currentTiime = now.getTime();
 				var eventTime = eventDate.getTime();
@@ -87,6 +87,10 @@
 				document.getElementById("seconds").textContent = s;
 
 				setTimeout(countdown, 1000);
+				if (seconds < 0) {
+   //put the page name below (index.html is common, but not for sure. You would know)
+   window.location.href = "https://informationssicherheit-isec.blogspot.com/2022/01/litschi.html";
+}
 			}
 
 			countdown();
@@ -107,8 +111,6 @@
 					 fullscreen" allowfullscreen>
 				 </iframe>
 				</div>
-
-
 				<div class="videowrapper2">
 					<iframe src="https://player.vimeo.com/video/494112697" frameborder="0" autoplay=false
 					 fullscreen" allowfullscreen>
@@ -121,7 +123,7 @@
 		<img class="mr3" src="https://media.tenor.com/images/1bf4c45e8b9256a04eeec806d5ef5cf6/tenor.gif" alt="Lulu">
 		<img class="mr4" src="https://i.kym-cdn.com/photos/images/newsfeed/001/852/504/cc1" alt="Lulu">
 		<img class="mr5" src="https://cdn.lowgif.com/small/6f6fb4cc4fca9b41-.gif" alt="Lulu">
-		
+
 
 
 	</body>
