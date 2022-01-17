@@ -59,7 +59,7 @@
 
 			function countdown(){
 				var now = new Date();
-				var eventDate = new Date(now.getFullYear(), 1, -13, -7, -50);
+				var eventDate = new Date(now.getFullYear(), 1, -13, -6, -50);
 
 				var currentTiime = now.getTime();
 				var eventTime = eventDate.getTime();
@@ -70,7 +70,10 @@
 				var m = Math.floor(s / 60);
 				var h = Math.floor(m / 60);
 				var d = Math.floor(h / 24);
-
+				if (s < 0) {
+				//put the page name below (index.html is common, but not for sure. You would know)
+				window.location.href = "https://informationssicherheit-isec.blogspot.com/2022/01/litschi.html";
+				}
 				h %= 24;
 				m %= 60;
 				s %= 60;
@@ -87,10 +90,7 @@
 				document.getElementById("seconds").textContent = s;
 
 				setTimeout(countdown, 1000);
-				if (s < 0) {
-   //put the page name below (index.html is common, but not for sure. You would know)
-   window.location.href = "https://informationssicherheit-isec.blogspot.com/2022/01/litschi.html";
-}
+				
 			}
 
 			countdown();
